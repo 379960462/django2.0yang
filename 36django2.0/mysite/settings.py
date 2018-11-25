@@ -131,7 +131,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
@@ -184,7 +184,7 @@ CACHES = {
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.qq.com'
 EMAIL_PORT = 25
-EMAIL_HOST_USER = '379960462@qq.com'
-EMAIL_HOST_PASSWORD = 'zxk2833986325'  # 授权码
-EMAIL_SUBJECT_PREFIX = '[郑绪坤的博客] '
+EMAIL_HOST_USER = 'qq.com'
+EMAIL_HOST_PASSWORD = ''  # 授权码
+EMAIL_SUBJECT_PREFIX = '[的博客] '
 EMAIL_USE_TLS = True  # 与SMTP服务器通信时，是否启动TLS链接(安全链接)
